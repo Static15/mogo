@@ -1,0 +1,65 @@
+
+@font-face {
+
+    font-family: "MontserratRegular";
+    src:  url("../fonts/MontserratRegular/MontserratRegular.woff") format("woff"),
+          url("../fonts/MontserratRegular/MontserratRegular.ttf") format("truetype"),
+          url("../fonts/MontserratRegular/MontserratRegular.eot"),
+          url("../fonts/MontserratRegular/MontserratRegular.woff2") format("woff2"),
+          url("../fonts/MontserratRegular/MontserratRegular.svg#Montserrat Regular") format("svg");
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+@font-face {
+
+    font-family: "KaushanScriptRegular";
+    src:  url("../fonts/KaushanScriptRegular/KaushanScriptRegular.woff") format("woff"),
+          url("../fonts/KaushanScriptRegular/KaushanScriptRegular.ttf") format("truetype"),
+          url("../fonts/KaushanScriptRegular/KaushanScriptRegular.eot"),
+          url("../fonts/KaushanScriptRegular/KaushanScriptRegular.woff2") format("woff2"),
+          url("../fonts/KaushanScriptRegular/KaushanScriptRegular.svg#Kaushan Script Regular") format("svg");
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+@font-face {
+
+    font-family: "MontserratBold";
+    src:  url("../fonts/MontserratBold/MontserratBold.woff") format("woff"),
+          url("../fonts/MontserratBold/MontserratBold.ttf") format("truetype"),
+          url("../fonts/MontserratBold/MontserratBold.eot"),
+          url("../fonts/MontserratBold/MontserratBold.woff2") format("woff2"),
+          url("../fonts/MontserratBold/MontserratBold.svg#Montserrat Bold") format("svg");
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+@font-face {
+
+    font-family: "RobotoRegular";
+    src:  url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+          url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype"),
+          url("../fonts/RobotoRegular/RobotoRegular.eot"),
+          url("../fonts/RobotoRegular/RobotoRegular.woff2") format("woff2"),
+          url("../fonts/RobotoRegular/RobotoRegular.svg#Roboto Regular") format("svg");
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+@font-face {
+
+    font-family: "RobotoLightItalic";
+    src:  url("../fonts/RobotoLightItalic/RobotoLightItalic.woff") format("woff"),
+          url("../fonts/RobotoLightItalic/RobotoLightItalic.ttf") format("truetype"),
+          url("../fonts/RobotoLightItalic/RobotoLightItalic.eot"),
+          url("../fonts/RobotoLightItalic/RobotoLightItalic.woff2") format("woff2"),
+          url("../fonts/RobotoLightItalic/RobotoLightItalic.svg#Roboto Light Italic") format("svg");
+    font-style: normal;
+    font-weight: normal;
+
+}

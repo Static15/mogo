@@ -1,0 +1,373 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body{
+	margin: 0;
+	padding: 0;
+}
+
+ol, ul{
+	list-style: none;
+}
+
+body{
+	background: #fff;
+	max-width: 1900px;
+	height: 100%
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+header{
+	padding: 28px 0;
+	background: url(../img/headback.png) no-repeat 23% 0 /cover;
+	height: 1000px;
+}
+
+.logo{
+	float: left;
+}
+
+
+.header-nav{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.header-nav_item{
+	padding: 0 0 0 55px;
+}
+
+.header-nav_link{
+	font: 14px 'MontserratRegular', Helvetica sans-serif;
+	color: #fff;
+	cursor: pointer;
+	transition: 0.3s easy-in-out;
+	text-transform: uppercase;
+}
+
+.header-nav_link:hover{
+	color: #fce38a;
+	cursor: pointer;
+	border-bottom: 4px solid #fce38a;
+	padding-bottom: 10px; 
+}
+
+.banner{
+	text-align: center;
+	padding-top: 160px;
+}
+
+.creative{
+	color: #fff;
+	font: 72px 'KaushanScriptRegular', Helvetica sans-serif;
+}
+
+.welcome{
+	color: #fff;
+	font: 169px 'MontserratBold', Helvetica sans-serif;
+	text-transform: uppercase;
+	padding-bottom: 125px; 
+}
+
+.btn{
+	position: relative;
+	cursor: pointer;
+	color: #fff;
+	transition: 0.3s easy-in-out;
+	outline: none;
+	cursor: pointer;
+	background: none;
+	font: 14px 'MontserratBold', Helvetica sans-serif;
+	padding: 0 30px 0 30px;
+	text-transform: uppercase;
+	height: 35px;
+	border: 2px solid #fff;
+}
+
+.btn:hover{
+	cursor: pointer;
+	color: #fce38a;
+	border: 2px solid #fce38a;
+}
+
+.btn:before{
+	content: '';
+	border-top: 3px solid #fff;
+	width: 60px;
+	position: absolute;
+	bottom: 90px;
+	left: 50px;
+}
+
+.container_main-block{
+	height: 750px;
+	background: #fff;
+	padding-top: 90px;
+}
+
+.aboutus{
+	text-align: center;
+	position: relative;
+}
+
+.aboutus_wedo{
+	font: 24px 'KaushanScriptRegular', Helvetica sans-serif;
+	color: #000;
+}
+
+.aboutus_story{
+	font: 30px 'MontserratBold', Helvetica sans-serif;
+	color: #000;
+	text-transform: uppercase;
+	padding: 25px 0 40px 0;
+}
+
+.aboutus_lorem{
+	font: 15px 'RobotoRegular', Helvetica sans-serif;
+	color: #9f9f9f;
+	padding-top: 50px;
+}
+
+.aboutus-pics{
+	padding-top: 100px;
+}
+
+.aboutus_lorem:after{
+	position: absolute;
+	content: '';
+	border-top: 3px solid #f38181;
+	top: 130px;
+	width: 60px;
+	right: 580px
+}
+
+.aboutus-pics_container{
+	height: 250px;
+	width: 370px;
+	background: url(../img/gradient.png);
+	display: inline-block;
+	margin: 0 0 0 25px;
+}
+
+.aboutus-img{
+	height: 250px;
+    width: 380px;
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+.aboutus-img:hover{
+	opacity: 0.4;
+}
+
+.rect{
+	height: 265px;
+	background: #95e1d3	
+}
+
+.numbers-wrap{
+	width: 235px;
+	display: inline-block;
+	text-align: center;
+	border-left: 1px solid #fff;
+}
+
+.number5{
+	border-right: 1px solid #fff;
+}
+
+.numbers_number{
+	padding-top: 75px;
+	font: 72px 'MontserratBold', Helvetica sans-serif;
+	color: #fff;
+}
+
+.numbers_desc{
+	padding-top: 30px;
+	font: 14px 'MontserratRegular', Helvetica sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+	padding-bottom: 90px;
+}
+
+.container_services{
+	position: relative;
+	text-align: center;
+	padding-top: 105px;
+}
+
+.we-work{
+	font: 24px 'KaushanScriptRegular', Helvetica sans-serif;
+	color: #000;
+}
+
+.amazing{
+	font: 30px 'MontserratBold', Helvetica sans-serif;
+	color: #000;
+	text-transform: uppercase;
+	padding: 0px 0 115px 0;
+}
+
+.amazing:after{
+	position: absolute;
+	content: '';
+	border-top: 3px solid #f38181;
+	top: 234px;
+	right: 570px;
+	width: 60px;
+}
+
+.services{
+	display: inline-block;
+	width: 31.66%;
+	text-align: left;
+}
+
+.services_icon{
+	position: relative;
+	right: 50px;
+	top: 35px;
+}
+
+.container_services{
+	height: 650px;
+}
+
+.services_title{
+	font: 14px 'MontserratRegular', Helvetica sans-serif;
+	color: #000;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+
+.services_desc{
+	font: 15px 'RobotoRegular', Helvetica sans-serif;
+	color: #9f9f9f;
+}
+
+.uniq-design{
+	background: url(../img/wedoback.png);
+	height: 850px;
+}
+
+.container_design{
+	text-align: center;
+	padding-top: 100px;
+}
+
+.container_design-title{
+	font: 24px 'KaushanScriptRegular', Helvetica sans-serif;
+	color: #000;
+}
+
+.container_design-uniqtitle{
+	padding-top: 25px;
+	font: 30px 'MontserratBold', Helvetica sans-serif;
+	color: #000;
+	text-transform: uppercase;
+}
+
+.container_wedo{
+	height: 900px;
+	padding: 100px 0 120px 0;
+	text-align: center;
+}
+
+.wedo_title{
+	font: 24px 'KaushanScriptRegular', Helvetica sans-serif;
+	color: #000;
+}
+
+.wedo_title2{
+	font: 30px 'MontserratBold', Helvetica sans-serif;
+	color: #000;
+	text-transform: uppercase;
+	padding-top: 25px;
+}
+
+.wedo_desc{
+	font: 15px 'RobotoRegular', Helvetica sans-serif;
+	color: #9f9f9f;
+	padding-top: 90px;
+}
+
+.doe-wrap{
+	height: 290px;
+	background: #f8f8f8;
+}
+
+.wedo-pic_wrap{
+	width: 565px;
+	height: 365px;
+	float: left;
+}
+
+.wedo-wrap{
+	padding-top: 95px;
+}
+
+.hipster-wrap{
+	background: #f8f8f8;
+	height: 250px;
+}
+
+.hip-img{
+	padding: 65px 0 70px 0;
+}
+
+.container_weare{
+	text-align: center;
+	padding: 100px 0 115px 0;
+}
+
+.weare-title{
+	font: 24px 'KaushanScriptRegular', Helvetica sans-serif;
+	color: #000;
+}
+
+.weare-title2{
+	font: 30px 'MontserratBold', Helvetica sans-serif;
+	color: #000;
+	padding-top: 30px;
+	text-transform: uppercase;
+}
+
+.weare-desc{
+	font: 15px 'RobotoRegular', Helvetica sans-serif;
+	color: #cccccc;
+	padding-top: 90px;
+}
+
+.container-our_work{
+	height: 410px;
+	padding: 105px 0 100px 0;
+	text-align: center;
+}
+
+.work-title{
+	font: 24px 'KaushanScriptRegular', Helvetica sans-serif;
+	color: #000;
+}
+
+.work-title2{
+	font: 30px 'MontserratBold', Helvetica sans-serif;
+	color: #000;
+	padding-top: 25px;
+	text-transform: uppercase;
+}
+
+.work-desc{
+	padding-top: 90px;
+	font: 15px 'RobotoRegular', Helvetica sans-serif;
+	color: #b3b3b3;
+}
