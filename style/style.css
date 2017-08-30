@@ -23,7 +23,7 @@ a, a:hover{
 	text-decoration: none;
 }
 .container{
-	width: 1200px;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 
@@ -31,6 +31,10 @@ header{
 	padding: 28px 0;
 	background: url(../img/headback.png) no-repeat 23% 0 /cover;
 	height: 1000px;
+}
+
+.logo_link{
+	display: inline-block;
 }
 
 .logo{
@@ -229,7 +233,8 @@ header{
 
 .services{
 	display: inline-block;
-	width: 31.66%;
+	width: 341px;
+	margin: 0 0 0 40px;
 	text-align: left;
 }
 
@@ -261,6 +266,7 @@ header{
 }
 
 .container_design{
+	position: relative;
 	text-align: center;
 	padding-top: 100px;
 }
@@ -275,6 +281,35 @@ header{
 	font: 30px 'MontserratBold', Helvetica sans-serif;
 	color: #000;
 	text-transform: uppercase;
+}
+
+.container_design-uniqtitle:after{
+	position: absolute;
+	content: '';
+	border-top: 3px solid #f38181;
+	top: 234px;
+	right: 570px;
+	width: 60px;
+}
+
+.ipad-pic{
+	position: relative;
+	top: 90px;
+	background: url(../img/ipad.png) no-repeat 100% 0% /cover;
+	padding: 470px 0 100px 0;
+	max-width: 470px;
+	margin: 0 auto;
+}
+
+.iphone-pic{
+	background: url(../img/iphone.png) no-repeat 100% 0 /cover;
+	max-width: 200px;
+	z-index: 1;
+	position: relative;
+	bottom: 288px;
+	left: 255px;
+	padding: 274px 68px 156px 0;
+	margin: 0 auto;
 }
 
 .container_wedo{
@@ -371,3 +406,4 @@ header{
 	font: 15px 'RobotoRegular', Helvetica sans-serif;
 	color: #b3b3b3;
 }
+
