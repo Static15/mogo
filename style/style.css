@@ -156,6 +156,7 @@ header{
 }
 
 .aboutus-pics_container{
+	position: relative;
 	height: 250px;
 	width: 370px;
 	background: linear-gradient(#f38181, #fce38a);
@@ -163,7 +164,20 @@ header{
 	margin: 0 0 0 25px;
 }
 
+.aboutus-pics_container:hover:before{
+	position: absolute;
+	width: 125px;
+	height: 50px;
+	background: url(../img/superteam.png) no-repeat 0% 0% / cover;
+	content: '';
+	z-index: 3;
+	top: 45%;
+	left: 30%;
+	cursor: pointer;
+}
+
 .aboutus-img{
+	position: relative;
 	height: 250px;
     width: 370px;
 	cursor: pointer;
@@ -685,4 +699,9 @@ header{
 	font: 15px 'RobotoRegular', Helvetica sans-serif;
 	color: #999999;
 	line-height: 25px;
+}
+
+.footer{
+	float: left;
+	width: 33%;
 }
