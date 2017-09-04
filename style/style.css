@@ -182,10 +182,10 @@ header{
 
 @keyframes up{
   from{
-    transform: scale(0);
+    transform: translateY(50px);
   } 
   to{
-    transform: scale(0.5);
+    transform: translateY(0);
   }
 }
 
@@ -341,8 +341,8 @@ header{
 
 .container_wedo{
 	position: relative;
-	height: 900px;
-	padding: 100px 0 120px 0;
+	height: 576px;
+	padding: 100px 0 240px 0;
 	text-align: center;
 }
 
@@ -370,17 +370,7 @@ header{
 .wedo_desc{
 	font: 15px 'RobotoRegular', Helvetica sans-serif;
 	color: #9f9f9f;
-	padding-top: 90px;
-}
-
-.wedo-pic_wrap{
-	width: 565px;
-	height: 365px;
-	float: left;
-}
-
-.wedo-wrap{
-	padding-top: 95px;
+	padding: 90px 0 95px 0;
 }
 
 .hipster-wrap{
@@ -717,4 +707,104 @@ header{
 .footer{
 	float: left;
 	width: 33%;
+}
+
+.footer-logo{
+	font: 46px 'MontserratBold', Helvetica sans-serif;
+	color: #cccccc;
+	text-align: left;
+}
+
+.footer-desc{
+	font: 14px 'RobotoRegular', Helvetica sans-serif;
+	color: #999999;
+	text-align: left;
+	padding-top: 45px;
+}
+
+.footer-follower{
+	font: 18px 'MontserratRegular', Helvetica sans-serif;
+	text-align: left;
+	padding-top: 50px;
+}
+
+.container_footer{
+	padding: 75px 0 70px 0;
+}
+
+.wedo-left{
+	float: left;
+	width: 45%;
+}
+
+.wedo-right{
+	float: left;
+	width: 50%;
+	margin: 0 0 0 55px;
+}
+
+.accordion {
+	position: relative;
+	font: 14px 'MontserratRegular', Helvetica sans-serif;
+	background: url(../img/arrowdown.png) 95% 50% no-repeat;
+	text-transform: uppercase;
+    cursor: pointer;
+    padding: 43px 0 25px 54px;
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.accordion:focus, .accordion:before{
+	background: url(../img/arrowup.png) 95% 50% no-repeat;
+}
+
+.accordion-icon1:after{
+	position: absolute;
+	content: '';
+	background: url(../img/photoicon.png) no-repeat;
+	height: 30px;
+	width: 30px;
+	right: 93%;
+	bottom: 26%;
+}
+
+.accordion-icon2:after{
+	position: absolute;
+	content: '';
+	background: url(../img/equaicon.png) no-repeat;
+	height: 30px;
+	width: 30px;
+	right: 93%;
+	bottom: 26%;
+}
+
+.accordion-icon3:after{
+	position: absolute;
+	content: '';
+	background: url(../img/bullicon.png) no-repeat;
+	height: 30px;
+	width: 30px;
+	right: 93%;
+	bottom: 26%;
+}
+
+.accordion.active, .accordion:hover {
+    background-color: #fff;
+}
+
+.panel {
+    padding: 0 18px 0 17px;
+    max-height: 0;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    text-align: left;
+    font: 15px 'RobotoLightItalic', Helvetica sans-serif;
+    color: #a8a8a8;
 }
