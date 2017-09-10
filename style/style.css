@@ -771,7 +771,7 @@ header{
 
 .footer{
 	float: left;
-	width: 33%;
+	width: 36%;
 }
 
 .footer-logo{
@@ -790,7 +790,7 @@ header{
 .footer-follower{
 	font: 18px 'MontserratRegular', Helvetica sans-serif;
 	text-align: left;
-	padding-top: 50px;
+	padding: 50px 0 37px 0;
 }
 
 .container_footer{
@@ -872,4 +872,118 @@ header{
     text-align: left;
     font: 15px 'RobotoLightItalic', Helvetica sans-serif;
     color: #a8a8a8;
+}
+
+.footer-sprite{
+	position: relative;
+	height: 17px;
+	width: 17px;
+	margin: 0 0 0 15px;
+	display: inline-block;
+	background: url(../img/spritesocial.png) no-repeat 3% 93%;
+}
+
+.footer-sprite_fb{
+	background-position: -2% 0;
+}
+
+.footer-sprite_tw{
+	background-position: 12% 0;
+}
+
+.footer-sprite_insta{
+	background-position: 27% 0;
+}
+
+.footer-sprite_pint{
+	background-position: 42% 0;
+}
+
+.footer-sprite_g{
+	background-position: 57% 0;
+}
+
+.footer-sprite_you{
+	background-position: 72% 0;
+}
+
+.footer-sprite_drib{
+	background-position: 87% 0;
+}
+
+.footer-sprite_tumb{
+	background-position: 101% 0;
+}
+
+.botom-pic{
+	width: 120px;
+	height: 80px;
+}
+
+.blogs{
+	padding: 0 0 40px 16px;
+	font: 14px 'MontserratRegular', Helvetica sans-serif;
+	text-transform: uppercase;
+}
+
+.blog_box-right{
+	float: right;
+	width: 57%
+}
+
+.blog_box-left{
+	padding:0 0 0 16px;
+	float: left;
+}
+
+.blog-desc{
+	font: 12px 'MontserratRegular', Helvetica sans-serif;
+	text-transform: uppercase;
+	padding-top: 20px;
+}
+
+.blog-date{
+	font: 13px 'RobotoLightItalic', Helvetica sans-serif;
+	color: #cccccc;
+	padding-top: 12px;
+}
+
+.blog_box{
+	display: inline-block;
+	padding: 0 0 30px 0;
+	text-align: left;
+	width: 84%;
+}
+
+.footer-left{
+	width: 37%;
+}
+
+.footer-center{
+	width: 37%;
+}
+
+.footer-right{
+	width: 26%;
+}
+
+.instagram{
+	font: 14px 'MontserratRegular', Helvetica sans-serif;
+	text-transform: uppercase;
+	padding-bottom: 40px;
+}
+
+.intagram-wrap{
+	height: 270px;
+	width: 270px;
+}
+
+.more-photo{
+	font: 13px 'RobotoLightItalic', Helvetica sans-serif;
+	padding-top: 20px;
+}
+
+.by{
+	padding: 25px 0 25px 0;
+	height: 60px;
 }
