@@ -987,3 +987,113 @@ header{
 	padding: 25px 0 25px 0;
 	height: 60px;
 }
+
+.masonry-wrap{
+	display: flex;
+	flex-direction: column;
+  	flex-wrap: wrap;
+  	height: 780px;
+}
+
+.masonry-pic1{
+	height: 390px;
+	width: 480px;
+	background: url(../img/work1.png) no-repeat 0% 90%;
+}
+
+.masonry-pic2{
+	height: 390px;
+	width: 480px;
+	background: url(../img/work2.png) no-repeat 100% 0%;
+}
+
+.masonry-pic3{
+	height: 390px;
+	width: 480px;
+	background: url(../img/work3.png) no-repeat 0% 97%;
+}
+
+.masonry-pic4{
+	height: 390px;
+	width: 480px;
+	background: url(../img/work4.png) no-repeat 70% 0%;
+}
+
+.masonry-pic5{
+	position: relative;
+	height: 780px;
+	width: 480px;
+	background: url(../img/work5.png) no-repeat 50% 38%;
+}
+
+.masonry-pic5:hover:after{
+	position: absolute;
+	opacity: 0.8;
+	background: linear-gradient(#f38181, #fce38a);
+	content: '';
+	z-index: 2;
+	left: 0;
+	cursor: pointer;
+	height: 780px;
+	width: 480px;
+}
+
+.masonry-pic5:hover:before{
+	position: absolute;
+	width: 480px;
+	height: 780px;
+	background: url(../img/masonryicon.png) no-repeat 0% 0%;
+	content: '';
+	z-index: 3;
+	top: 45%;
+	left: 30%;
+	cursor: pointer;
+	animation-name: up;
+    animation-duration:0.5s;
+  	animation-iteration-count: 1;
+  	animation-direction: normal
+}
+
+.masonry-pic6{
+	height: 390px;
+	width: 480px;
+	background: url(../img/work6.png) no-repeat 0% 0%;
+}
+
+.masonry-pic7{
+	height: 390px;
+	width: 480px;
+	background: url(../img/work7.png) no-repeat;
+}
+
+.masonry{
+	position: relative;
+}
+
+.masonry:hover:after{
+	position: absolute;
+	opacity: 0.8;
+	background: linear-gradient(#f38181, #fce38a);
+	content: '';
+	z-index: 2;
+	left: 0;
+	cursor: pointer;
+	height: 390px;
+	width: 480px;
+}
+
+.masonry:hover:before{
+	position: absolute;
+	width: 480px;
+	height: 390px;
+	background: url(../img/masonryicon.png) no-repeat 0% 0%;
+	content: '';
+	z-index: 3;
+	top: 45%;
+	left: 30%;
+	cursor: pointer;
+	animation-name: up;
+    animation-duration:0.5s;
+  	animation-iteration-count: 1;
+  	animation-direction: normal
+}
