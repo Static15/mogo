@@ -43,8 +43,12 @@ header{
 
 
 .header-nav{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: flex-end;
+	-webkit-box-pack: end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
 }
 
 .header-nav_item{
@@ -55,6 +59,8 @@ header{
 	font: 14px 'MontserratRegular', Helvetica sans-serif;
 	color: #fff;
 	cursor: pointer;
+	-webkit-transition: 0.3s easy-in-out;
+	-o-transition: 0.3s easy-in-out;
 	transition: 0.3s easy-in-out;
 	text-transform: uppercase;
 }
@@ -87,6 +93,8 @@ header{
 	position: relative;
 	cursor: pointer;
 	color: #fff;
+	-webkit-transition: 0.3s easy-in-out;
+	-o-transition: 0.3s easy-in-out;
 	transition: 0.3s easy-in-out;
 	outline: none;
 	cursor: pointer;
@@ -159,6 +167,9 @@ header{
 	position: relative;
 	height: 250px;
 	width: 370px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f38181), to(#fce38a));
+	background: -webkit-linear-gradient(#f38181, #fce38a);
+	background: -o-linear-gradient(#f38181, #fce38a);
 	background: linear-gradient(#f38181, #fce38a);
 	display: inline-block;
 	margin: 0 0 0 25px;
@@ -167,6 +178,9 @@ header{
 .aboutus-pics_container:hover:after{
 	position: absolute;
 	opacity: 0.4;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f38181), to(#fce38a));
+	background: -webkit-linear-gradient(#f38181, #fce38a);
+	background: -o-linear-gradient(#f38181, #fce38a);
 	background: linear-gradient(#f38181, #fce38a);
 	content: '';
 	height: 250px;
@@ -186,18 +200,35 @@ header{
 	top: 45%;
 	left: 30%;
 	cursor: pointer;
-	animation-name: up;
-    animation-duration:0.5s;
-  	animation-iteration-count: 1;
-  	animation-direction: normal
+	-webkit-animation-name: up;
+	        animation-name: up;
+    -webkit-animation-duration:0.5s;
+            animation-duration:0.5s;
+  	-webkit-animation-iteration-count: 1;
+  	        animation-iteration-count: 1;
+  	-webkit-animation-direction: normal;
+  	        animation-direction: normal
+}
+
+@-webkit-keyframes up{
+  from{
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  } 
+  to{
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
 }
 
 @keyframes up{
   from{
-    transform: translateY(50px);
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
   } 
   to{
-    transform: translateY(0);
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
 }
 
@@ -206,6 +237,8 @@ header{
 	height: 250px;
     width: 370px;
 	cursor: pointer;
+	-webkit-transition: 0.4s;
+	-o-transition: 0.4s;
 	transition: 0.4s;
 }
 
@@ -451,6 +484,9 @@ header{
 
 .team-box:hover:before{
 	position: absolute;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f38181), to(#fce38a));
+	background: -webkit-linear-gradient(#f38181, #fce38a);
+	background: -o-linear-gradient(#f38181, #fce38a);
 	background: linear-gradient(#f38181, #fce38a);
 	width: 380px;
 	height: 470px;
@@ -510,6 +546,8 @@ header{
 	background: url(../img/team1.png) no-repeat 20% 0 / cover;
 	max-width: 380px;
 	padding-top: 124%;
+	-webkit-transition: 0.8s;
+	-o-transition: 0.8s;
 	transition: 0.8s;
 	cursor: pointer;
 }
@@ -518,6 +556,8 @@ header{
 	background: url(../img/team2.png) no-repeat 70% 0 / cover;
 	max-width: 380px;
 	padding-top: 124%;
+	-webkit-transition: 0.8s;
+	-o-transition: 0.8s;
 	transition: 0.8s;
 	cursor: pointer;
 }
@@ -526,6 +566,8 @@ header{
 	background: url(../img/team3.png) no-repeat 41% 0 / cover;
 	max-width: 380px;
 	padding-top: 124%;
+	-webkit-transition: 0.8s;
+	-o-transition: 0.8s;
 	transition: 0.8s;
 	cursor: pointer;
 }
@@ -754,7 +796,9 @@ header{
 	display: inline-block;
 	width: 33%;
 	text-align: left;
-	transform: translateX(25px);
+	-webkit-transform: translateX(25px);
+	    -ms-transform: translateX(25px);
+	        transform: translateX(25px);
 }
 
 .blog-desk_title{
@@ -820,6 +864,8 @@ header{
     text-align: left;
     outline: none;
     font-size: 15px;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
     transition: 0.4s;
 }
 
@@ -868,6 +914,8 @@ header{
     border-right: 1px solid #e5e5e5;
     border-bottom: 1px solid #e5e5e5;
     overflow: hidden;
+    -webkit-transition: max-height 0.2s ease-out;
+    -o-transition: max-height 0.2s ease-out;
     transition: max-height 0.2s ease-out;
     text-align: left;
     font: 15px 'RobotoLightItalic', Helvetica sans-serif;
@@ -989,9 +1037,15 @@ header{
 }
 
 .masonry-wrap{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-  	flex-wrap: wrap;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+  	-ms-flex-wrap: wrap;
+  	    flex-wrap: wrap;
   	height: 780px;
 }
 
@@ -1029,6 +1083,9 @@ header{
 .masonry-pic5:hover:after{
 	position: absolute;
 	opacity: 0.8;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f38181), to(#fce38a));
+	background: -webkit-linear-gradient(#f38181, #fce38a);
+	background: -o-linear-gradient(#f38181, #fce38a);
 	background: linear-gradient(#f38181, #fce38a);
 	content: '';
 	z-index: 2;
@@ -1048,10 +1105,14 @@ header{
 	top: 45%;
 	left: 30%;
 	cursor: pointer;
-	animation-name: up;
-    animation-duration:0.5s;
-  	animation-iteration-count: 1;
-  	animation-direction: normal
+	-webkit-animation-name: up;
+	        animation-name: up;
+    -webkit-animation-duration:0.5s;
+            animation-duration:0.5s;
+  	-webkit-animation-iteration-count: 1;
+  	        animation-iteration-count: 1;
+  	-webkit-animation-direction: normal;
+  	        animation-direction: normal
 }
 
 .masonry-pic6{
@@ -1073,6 +1134,9 @@ header{
 .masonry:hover:after{
 	position: absolute;
 	opacity: 0.8;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f38181), to(#fce38a));
+	background: -webkit-linear-gradient(#f38181, #fce38a);
+	background: -o-linear-gradient(#f38181, #fce38a);
 	background: linear-gradient(#f38181, #fce38a);
 	content: '';
 	z-index: 2;
@@ -1092,8 +1156,12 @@ header{
 	top: 45%;
 	left: 30%;
 	cursor: pointer;
-	animation-name: up;
-    animation-duration:0.5s;
-  	animation-iteration-count: 1;
-  	animation-direction: normal
+	-webkit-animation-name: up;
+	        animation-name: up;
+    -webkit-animation-duration:0.5s;
+            animation-duration:0.5s;
+  	-webkit-animation-iteration-count: 1;
+  	        animation-iteration-count: 1;
+  	-webkit-animation-direction: normal;
+  	        animation-direction: normal
 }
